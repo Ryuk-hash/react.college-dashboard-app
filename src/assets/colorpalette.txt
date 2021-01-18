@@ -1,0 +1,11 @@
+Sweet Corn
+#f8dc81
+
+Frost
+#eff7e1
+
+Shadow Green
+#a2d0c1
+
+Blue Dianne
+#214151

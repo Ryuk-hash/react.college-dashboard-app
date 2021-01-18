@@ -1,0 +1,84 @@
+.Container {
+  text-align: center;
+  padding: 35px;
+  line-height: 200%;
+  width: 100%;
+  font-size: 16px;
+}
+
+.Title {
+  color: black;
+  font-size: 1.5em;
+}
+
+.Container button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: black;
+  background-color: #eff7e1;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.Container button:hover {
+  background-color: #f3f3;
+}
+
+.Container a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(187, 186, 186);
+}
+
+.Container button:hover,
+.Container a:hover {
+  opacity: 0.7;
+}
+
+.List {
+  padding: 0;
+  display: inline-grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 2px;
+  list-style: none;
+}
+
+.Heading,
+.Students,
+.Courses {
+  margin: 40px 0;
+}
+
+.Address {
+  margin: 20px 0;
+  font-size: 80%;
+  color: grey;
+}
+
+@media (max-width: 800px) {
+  .List {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .List {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.ListItem {
+  background-color: #eff7e1;
+  border-radius: 2px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.ListItem:hover {
+  background-color: #f3f3;
+  color: black;
+}
