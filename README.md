@@ -20,7 +20,7 @@ The live demo for the application can be found here:
 ##### Frontend
 
 <p align="center">
-  <img alt="Folder-Structure" width="350" height="400" src="./ProjectFiles/github/frontend.png">
+  <img alt="Folder-Structure" width="300" height="400" src="./ProjectFiles/github/frontend.png">
 </p>
 
 ##### Backend
